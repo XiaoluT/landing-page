@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto 80px;
+}
+
+.header .container {
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a,
+.head .texts p {
+    font-size: 18px;
+    color: #e5e7e8;
+}
+
+.head {
+    display: flex;
+}
+
+.head .logo {
+    font-size: 24px;
+}
+
+.head .logo,
+.introduction .texts h1 {
+    color: #f9faf8;
+}
+
+
+.head .links {
+    margin-left: auto;
+}
+
+.links ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .introduction {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.introduction .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    background-color: #c87b7d;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.introduction .texts h1,
+.information h2 {
+    font-weight: 900;
+}
+
+.introduction .texts h1 {
+    font-size: 48px;
+}
+
+.introduction img {
+    width: 320px;
+    border-radius: 10px;
+}
+
+.information .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    gap: 30px;
+}
+
+.information h2,
+.quote .quote-content {
+    font-size: 36px;
+    color: #1F2937
+}
+
+.information .courses {
+    display: flex;
+    gap: 10px;
+}
+
+.courses .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img {
+    width: 200px;
+    border: 2px solid #c87b7d;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7e8;
+    font-weight: 300;
+}
+
+.quote .container {
+    padding: 20px;
+    gap: 10px;
+}
+
+.quote .quote-content {
+    font-style: italic;
+}
+
+.quote span {
+    font-family: "KaiTi", "STKaiti", "楷体", serif;
+}
+
+.quote .source {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.sign-up .container {
+    background-color: #c87b7d;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    flex-direction: row;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up .call-to-action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.sign-up .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
